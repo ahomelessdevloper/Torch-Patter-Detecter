@@ -1,0 +1,121 @@
+---
+pid: 29396
+cwd: "C:\Users\amit\OneDrive\Desktop\lightoor.scan"
+command: "cmd /c \"cd /d C:\\Users\\amit\\OneDrive\\Desktop\\lightoor.scan && npm run dev\""
+started_at: 2026-06-24T04:28:04.243Z
+running_for_ms: 2210000  
+---
+
+> lightoor.scan@0.0.0 dev
+> vite
+
+
+  VITE v8.1.0  ready in 1348 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+10:08:39 am [vite] (client) hmr update /src/App.tsx, /src/index.css
+10:08:39 am [vite] (client) hmr update /src/components/Navbar.tsx, /src/index.css
+10:08:39 am [vite] (client) hmr update /src/index.css, /src/components/layout/AppSidebar.tsx
+10:08:39 am [vite] (client) hmr update /src/index.css, /src/components/layout/MobileNav.tsx
+10:08:39 am [vite] (client) hmr update /src/App.tsx, /src/index.css
+10:08:39 am [vite] (client) hmr update /src/components/Navbar.tsx, /src/index.css
+10:08:39 am [vite] (client) hmr update /src/index.css, /src/components/layout/AppSidebar.tsx
+10:08:47 am [vite] (client) hmr update /src/components/layout/AppLayout.tsx, /src/index.css
+10:08:47 am [vite] (client) hmr update /src/App.tsx, /src/index.css
+10:08:53 am [vite] (client) hmr update /src/pages/Patterns.tsx, /src/index.css
+10:08:53 am [vite] (client) hmr update /src/index.css, /src/components/Features.tsx
+10:08:53 am [vite] (client) hmr update /src/App.tsx, /src/index.css
+10:08:59 am [vite] (client) hmr update /src/index.css, /src/components/Features.tsx
+10:09:22 am [vite] (client) hmr update /src/pages/Patterns.tsx, /src/index.css
+10:11:06 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx
+10:11:07 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx
+10:11:07 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx
+10:11:07 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx
+10:11:29 am [vite] (client) hmr update /src/index.css, /src/components/ui/Modal.tsx
+10:11:29 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx
+10:11:29 am [vite] (client) hmr update /src/index.css, /src/components/patterns/PatternDetailModal.tsx
+10:17:19 am [vite] (client) hmr update /src/index.css, /src/components/patterns/CandlePatternChart.tsx
+10:17:19 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx, /src/components/patterns/PatternDetailModal.tsx
+10:17:19 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx, /src/components/patterns/PatternDetailModal.tsx
+10:17:41 am [vite] (client) hmr update /src/index.css, /src/components/patterns/PatternDetailModal.tsx
+10:17:41 am [vite] (client) hmr update /src/pages/Patterns.tsx, /src/index.css
+10:17:46 am [vite] (client) hmr update /src/index.css, /src/components/patterns/PatternDetailModal.tsx
+10:17:46 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx, /src/components/patterns/PatternDetailModal.tsx
+10:17:46 am [vite] (client) hmr update /src/index.css, /src/components/patterns/PatternDetailModal.tsx
+10:17:46 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx, /src/components/patterns/PatternDetailModal.tsx
+10:18:08 am [vite] (client) hmr update /src/pages/Patterns.tsx, /src/index.css
+10:18:08 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx, /src/components/patterns/PatternDetailModal.tsx
+10:18:09 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx, /src/components/patterns/PatternDetailModal.tsx
+10:20:56 am [vite] (client) hmr update /src/App.tsx, /src/index.css
+10:20:56 am [vite] (client) hmr update /src/components/Footer.tsx, /src/index.css
+10:20:56 am [vite] (client) hmr update /src/pages/Patterns.tsx, /src/index.css
+10:20:56 am [vite] (client) hmr update /src/index.css, /src/components/Features.tsx
+10:20:56 am [vite] (client) hmr update /src/components/Navbar.tsx, /src/index.css
+10:20:56 am [vite] (client) hmr update /src/index.css, /src/components/Hero.tsx
+10:20:56 am [vite] (client) hmr update /src/index.css, /src/components/HowItWorks.tsx
+10:20:56 am [vite] (client) hmr update /src/index.css, /src/components/CTA.tsx
+10:20:56 am [vite] (client) page reload index.html
+10:20:56 am [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+10:20:56 am [vite] (client) hmr update /src/index.css, /src/components/FAQ.tsx
+10:21:03 am [vite] (client) hmr update /src/index.css, /src/components/CopyTraderModal.tsx
+10:21:03 am [vite] (client) hmr update /src/index.css, /src/components/Leaderboard.tsx
+10:21:03 am [vite] (client) hmr update /src/components/layout/AppLayout.tsx, /src/index.css
+10:21:03 am [vite] (client) hmr update /src/index.css, /src/components/layout/AppSidebar.tsx
+10:21:03 am [vite] (client) hmr update /src/index.css, /src/components/layout/MobileNav.tsx
+10:21:03 am [vite] (client) hmr update /src/index.css, /src/components/layout/Shell.tsx
+10:21:03 am [vite] (client) hmr update /src/index.css, /src/pages/TraderProfile.tsx, /src/pages/Scanner.tsx, /src/pages/Dashboard.tsx
+10:21:03 am [vite] (client) hmr update /src/index.css, /src/components/ui/Slider.tsx
+10:21:03 am [vite] (client) hmr update /src/pages/TraderProfile.tsx, /src/index.css
+10:21:03 am [vite] (client) hmr update /src/index.css, /src/components/ui/Input.tsx
+10:21:03 am [vite] (client) hmr update /src/index.css, /src/components/ui/Toggle.tsx
+10:21:03 am [vite] (client) hmr update /src/pages/Dashboard.tsx, /src/index.css
+10:21:03 am [vite] (client) hmr update /src/pages/Connect.tsx, /src/index.css
+10:21:03 am [vite] (client) hmr update /src/pages/Scanner.tsx, /src/index.css
+10:21:03 am [vite] (client) hmr update /src/pages/Settings.tsx, /src/index.css
+10:21:03 am [vite] (client) hmr update /src/context/AppContext.tsx, /src/index.css
+10:21:03 am [vite] (client) hmr update /src/index.css
+10:21:21 am [vite] (client) hmr update /src/index.css, /src/components/Hero.tsx
+10:24:17 am [vite] (client) page reload index.html
+10:24:17 am [vite] (client) hmr update /src/index.css
+10:24:17 am [vite] (client) hmr update /src/components/Footer.tsx, /src/index.css
+10:24:17 am [vite] (client) hmr update /src/components/Navbar.tsx, /src/index.css
+10:24:17 am [vite] (client) page reload index.html
+10:24:17 am [vite] (client) hmr update /src/index.css
+10:24:17 am [vite] (client) hmr update /src/index.css, /src/components/FAQ.tsx
+10:24:17 am [vite] (client) hmr update /src/index.css, /src/components/Hero.tsx
+10:24:33 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx, /src/components/patterns/PatternDetailModal.tsx
+10:24:33 am [vite] (client) hmr update /src/index.css, /src/components/patterns/Sparkline.tsx
+10:24:33 am [vite] (client) hmr update /src/index.css, /src/components/patterns/CandlePatternChart.tsx
+10:24:33 am [vite] (client) hmr update /src/index.css, /src/components/Features.tsx
+10:24:33 am [vite] (client) hmr update /src/index.css, /src/components/ui/Modal.tsx
+10:24:33 am [vite] (client) hmr update /src/index.css, /src/components/CTA.tsx
+10:24:44 am [vite] (client) hmr update /src/pages/Patterns.tsx, /src/index.css
+10:24:45 am [vite] (client) hmr update /src/index.css, /src/components/HowItWorks.tsx
+10:24:45 am [vite] (client) hmr update /src/pages/Patterns.tsx, /src/index.css
+10:24:45 am [vite] (client) hmr update /src/index.css, /src/components/HowItWorks.tsx
+10:24:45 am [vite] (client) hmr update /src/index.css, /src/components/PatternTypes.tsx
+10:24:45 am [vite] (client) hmr update /src/pages/Patterns.tsx, /src/index.css
+10:26:29 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx, /src/components/patterns/PatternDetailModal.tsx
+10:26:29 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx, /src/components/patterns/PatternDetailModal.tsx
+10:26:29 am [vite] (client) hmr update /src/index.css, /src/components/patterns/CandlePatternChart.tsx, /src/pages/Patterns.tsx, /src/components/patterns/PatternDetailModal.tsx, /src/components/Hero.tsx
+10:26:29 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx, /src/components/patterns/PatternDetailModal.tsx
+10:26:29 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx, /src/components/patterns/PatternDetailModal.tsx
+10:26:29 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx, /src/components/patterns/PatternDetailModal.tsx
+10:26:39 am [vite] (client) hmr update /src/pages/Patterns.tsx, /src/index.css
+10:26:39 am [vite] (client) hmr update /src/index.css, /src/pages/Patterns.tsx, /src/components/patterns/PatternDetailModal.tsx
+10:26:39 am [vite] (client) hmr update /src/pages/Patterns.tsx, /src/index.css
+10:26:39 am [vite] (client) hmr update /src/pages/Patterns.tsx, /src/index.css
+10:26:39 am [vite] (client) hmr update /src/pages/Patterns.tsx, /src/index.css
+10:26:45 am [vite] (client) hmr update /src/index.css, /src/components/patterns/PatternDetailModal.tsx
+10:26:45 am [vite] (client) hmr update /src/index.css, /src/components/patterns/PatternDetailModal.tsx
+10:26:45 am [vite] (client) hmr update /src/index.css, /src/components/patterns/PatternDetailModal.tsx
+10:26:45 am [vite] (client) hmr update /src/index.css, /src/components/patterns/PatternDetailModal.tsx
+10:26:45 am [vite] (client) hmr update /src/index.css, /src/components/patterns/PatternDetailModal.tsx
+10:26:53 am [vite] (client) hmr update /src/index.css, /src/components/patterns/CandlePatternChart.tsx
+10:26:53 am [vite] (client) hmr update /src/index.css, /src/components/Hero.tsx
+10:26:53 am [vite] (client) hmr update /src/index.css, /src/components/FAQ.tsx
+10:26:53 am [vite] (client) hmr update /src/index.css, /src/components/Features.tsx
+10:26:58 am [vite] (client) hmr update /src/index.css, /src/components/patterns/PatternDetailModal.tsx
+10:27:13 am [vite] (client) hmr update /src/index.css, /src/components/patterns/CandlePatternChart.tsx, /src/pages/Patterns.tsx, /src/components/patterns/PatternDetailModal.tsx, /src/components/Hero.tsx
+10:27:13 am [vite] (client) hmr update /src/index.css, /src/components/patterns/CandlePatternChart.tsx, /src/pages/Patterns.tsx, /src/components/patterns/PatternDetailModal.tsx, /src/components/Hero.tsx

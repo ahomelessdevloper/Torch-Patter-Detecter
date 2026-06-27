@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Tinos", "Times New Roman", Times, serif;
+  --font-mono: "Tinos", "Times New Roman", Times, serif;
+  --color-surface: #09090c;
+  --color-surface-raised: #0f0f14;
+  --color-surface-overlay: #16161d;
+  --color-border: #252530;
+  --color-border-subtle: #1a1a22;
+  --color-accent: #f59e0b;
+  --color-accent-dim: #d97706;
+  --color-accent-glow: #f59e0b26;
+  --color-accent-soft: #fbbf24;
+  --color-muted: #7a7a8c;
+  --color-danger: #f43f5e;
+  --color-warning: #fbbf24;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-size: 13px;
+}
+
+@media (min-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.45;
+  letter-spacing: 0.01em;
+  background-color: var(--color-surface);
+  color: #ededf2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-sans);
+  letter-spacing: 0.005em;
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+a, button {
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
+}
+
+::selection {
+  background: var(--color-accent-glow);
+  color: var(--color-accent-soft);
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(var(--color-border-subtle) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-border-subtle) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse 70% 50% at 50% 0%, black 15%, transparent 65%);
+  opacity: 0.6;
+}
+
+.glow-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  pointer-events: none;
+}
+
+.glass {
+  background: rgba(15, 15, 20, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--color-border-subtle);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, var(--color-accent-soft) 50%, var(--color-accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.25; }
+  50% { opacity: 0.5; }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 4s ease-in-out infinite;
+}
+
+.card-hover {
+  transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-hover:hover {
+  border-color: color-mix(in srgb, var(--color-accent) 25%, transparent);
+  transform: translateY(-1px);
+}
